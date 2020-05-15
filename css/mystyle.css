@@ -1,0 +1,145 @@
+*{
+    font-family:monospace;
+	
+}
+h1{
+    color:red;
+}
+li a:hover{
+	color:white;
+}
+#home{
+    border:2px outset red;
+    display:inline-block;
+    border-radius:10px;
+    width:auto;
+    text-align:center;
+    top:1px;
+    right:1px;
+    position:fixed;
+    background-color:white;
+}
+#home a{
+    font:25px Courier ;
+    font-weight:bold; 
+    text-decoration:none;
+    margin:4px;
+    
+}
+
+span a:link{
+	color:red;
+}
+span a:visited{
+	color:red;
+}
+span a:hover{
+	color:white;
+}
+#home:hover{
+    background-color:hotpink;
+	
+}
+
+#main{
+	width:800px;
+	height:1800px;
+	margin:auto;
+	background-color:#007f6f;
+}
+#thongtin ul{
+    float:left
+}
+#thongtin ul li{
+	font-size:20px
+}
+#thongtin img{
+    border:5px ridge hotpink;
+    position:relative;
+    top:15px;
+    left:15px;
+    float:left;
+}
+#backtoheader{
+	border:2px solid red;
+    display:inline-block;
+    border-radius:10px;
+	text-align:center;
+    width:auto;
+    top:1px;
+    right:1px;
+	position:fixed;
+	background-color:white;
+}
+#backtoheader a{
+	margin:4px;
+	color:black;
+}
+#backtoheader:hover > a{
+    color:white;
+}
+#backtoheader:hover{
+    background-color:hotpink;
+	
+}
+#rowtitle{
+	height:20px;
+	text-shadow: 3px 3px 2px white;
+}
+#main h1{
+    text-shadow: 3px 3px 2px white;
+}
+#rowfoot{
+	height:10px;
+	text-align:right;
+}
+#rowcenter{
+	vertical-align:top;
+}
+body{
+	background-image:url("../picture/background.jpg");
+	background-color: #00cccc;
+	margin:0px;
+}
+#nhapthongtin{
+	background-color:#cccccc;
+	text-align:left;
+}
+#nhapthongtin tr td{
+	padding:10px;
+}
+#menubaitap li{
+	display:block;
+	border-radius:10px;
+	background-color:hotpink;
+	border:1px solid hotpink;
+	width:100px
+}
+#menubaitap li:hover{
+	color:white;
+	border:1px solid white;
+}
+#menubaitap li:hover > ul{
+	display:block;
+	position:absolute;
+}
+#menubaitap h4{
+	font-size:20px ;
+	margin:10px;
+}
+#menubaitap ol a{
+	display:block;
+	text-decoration:none;
+}
+#menubaitap ol{
+	text-align:center;
+	padding-left:5px;
+	position:relative;
+}
+#menubaitap ul{
+	list-style-type:none;
+	display:none;
+	left:67px;
+	top: 0px;
+	
+}

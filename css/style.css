@@ -1,0 +1,72 @@
+body{
+    background-color:grey;
+}
+#title {
+  background-image: url("../picture/banner.jpg") ;
+  margin: 0px;
+  text-align: center;
+  height: 148px;
+  width: 800px;  border:1px solid #656565;
+}
+#title h1{
+  width: 800px;
+  color: yellow;
+  padding-top: 10px;
+  font-size:50px;
+  font-family: Courier New, sans-serif;
+}
+#wrap{
+  width: 800px;
+  margin:auto;
+  background-color: #3b7565;
+  padding: 10px;
+}
+#menu {
+  padding: 0;
+}
+#menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+}
+#menu li{
+  float: left;
+  border: 1px dotted yellow;
+  width: 198px;
+  background-color: #222;
+}
+#menu li li{
+  width: 150px;
+}
+#menu ul li ul{
+  display: none;
+  position: absolute;
+  width: 150px;
+}
+#menu a{
+  text-decoration:  none;
+  color: yellow;
+  display: block;
+  text-align: center;
+  margin: 0px;
+  padding: 3px;
+}
+#menu li:hover ul{
+  display: block;
+}
+#menu a:hover{
+  background-color: lightgray;
+  color: black;
+}
+a{
+  color:  white;
+}
+#content h4{
+  border-bottom:  2px dotted yellow;
+  display: inline-block;
+  color:  yellow;
+}
+#footer{
+  border-top: 2px dotted black;
+  text-align: center;
+}

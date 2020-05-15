@@ -1,0 +1,50 @@
+
+table th{
+  background-color: yellowgreen;
+}
+table{
+  margin :auto;
+  background-color: pink;
+}
+.datas{
+    background-color: green;
+}
+table td:hover{
+  background-color: hotpink;
+}
+#main{
+	width:800px;
+  text-align: center;
+	margin:auto;
+}
+#home{
+    border:2px outset red;
+    display:inline-block;
+    border-radius:10px;
+    width:auto;
+    text-align:center;
+    top:1px;
+    right:1px;
+    position:fixed;
+    background-color:white;
+}
+#home a{
+    font:25px Courier ;
+    font-weight:bold; 
+    text-decoration:none;
+    margin:4px;
+    
+}
+
+span a:link{
+	color:red;
+}
+span a:visited{
+	color:red;
+}
+span a:hover{
+	color:white;
+}
+#home:hover{
+    background-color:hotpink;	
+}
